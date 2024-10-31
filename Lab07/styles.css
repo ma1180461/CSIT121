@@ -18,14 +18,14 @@ body {
     margin: 0 15px;
     text-decoration: none;
   }
-  
   table {
     width: 80%;
     border-collapse: collapse;
-    margin: auto;
-    
+    margin: auto; 
   }
-  
+  section{
+    margin: auto;
+  }
   th, td {
     border: 1px solid #ddd;
     padding: 8px;
