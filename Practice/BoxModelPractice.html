@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoxModelPractice</title>
+    <style>  
+        html {
+            
+            border: 2px solid red;
+        }
+        body {
+          
+            border:2px solid orange;
+        }
+        main {
+            
+            border:0px solid yellow;
+        }
+    
+        
+        section#one {
+            position: absolute;
+            top: 50px;
+            left: 325px;
+            border: 1x solid green;
+        }
+        section#two {
+            float: right;
+            border: 1px solid blue;
+        }
+        
+    
+        em { 
+            
+            border: 1px solid aqua;
+        } 
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: gray;
+            text-align: center;
+            line-height: 200px; 
+    margin: 20px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+            
+    </style>
+
+</head>
+<body>
+    
+<div>
+ <section id="one">
+    <p>box1</p>
+</section>
+</div>
+
+<div>
+    <section id="two">
+        </section>
+    <p>box2</p>
+</div>
+<div>
+    <section id="three">
+
+    </section>
+    <p>box3</p>
+</div>
+    
+</body>
+</html>
