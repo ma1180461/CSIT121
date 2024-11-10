@@ -11,4 +11,5 @@
 <li><a href= "Lab05/">Lab05</a></li>
 <li><a href= "Lab06/">Lab06</a></li>
 <li><a href= "Lab07/">Lab07</a></li>
+<li><a href= "Lab08/">Lab08</a></li>
 </ol>
