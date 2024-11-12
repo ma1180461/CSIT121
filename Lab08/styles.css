@@ -24,7 +24,7 @@ nav {
     overflow: hidden;
   }
   
-  
+<script>
 nav a {
     float: left;
     display: block;
@@ -51,7 +51,7 @@ nav a.active {
 nav .icon {
     display: none;
   }
-
+</script>
 main nav {
 background-color: beige;
 border: .2em solid darkolivegreen;
